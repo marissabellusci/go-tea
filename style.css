@@ -4,6 +4,7 @@ html {
 
 .navbar {
    background: #6ab446;
+
 }
 
 .nav-link,
@@ -19,6 +20,11 @@ html {
 .navbar-brand:hover,
 .nav-link:hover {
   color: rgb(255, 255, 219);
+}
+
+.navbar-brand > img {
+  height: 3rem;
+  margin: 0 1rem;
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -63,8 +69,9 @@ html {
   }
 
 h1 {
-  padding: 5rem 0 5rem 0;
+  padding: 2rem 0 2rem 0;
   text-align: center;
+
 }
 h2 {
   text-align:center;
@@ -74,8 +81,47 @@ h2 {
   color: #6ab446;
 }
 
-.section h2 {
-  padding: 4rem;
+.section h2{
+  padding: 2rem;
+}
+
+.headshot {
+  border-radius: 50%;
+  border: solid red;
+  width: 15rem;
+  height: 15rem;
+  margin:auto;
+}
+
+.about-section {
+  padding-bottom: 5rem;
+  justify-content: center;
+}
+
+.text-block {
+  margin: auto;
+  text-align: center;;
+}
+
+
+
+.about-go-tea {
+  background-image: url(images/biking-mtns.jpeg);
+  padding:10rem 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 0;
+  margin-bottom: 3rem;
+}
+
+.overlay > .section > h1{
+  position: absolute;
+  top: 45%;
+  left:0;
+  transform: translateY(60%);
+  text-align: center;
+  width: 100%;
 }
 
 footer {
