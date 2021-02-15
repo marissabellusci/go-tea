@@ -61,3 +61,25 @@ html {
     top: 0;
     background: rgba(0, 0, 0, 0.651);
   }
+
+h1 {
+  padding: 5rem 0 5rem 0;
+  text-align: center;
+}
+h2 {
+  text-align:center;
+}
+
+.section h1{
+  color: #6ab446;
+}
+
+.section h2 {
+  padding: 4rem;
+}
+
+footer {
+  background: #6ab446;
+  color: #fff;
+  font-size: smaller;
+}
